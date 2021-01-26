@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/GTestSetup.dir/src/main/main.cpp.o CMakeFiles/GTestSetup.dir/src/main/MyClass.cpp.o  -o GTestSetup 
