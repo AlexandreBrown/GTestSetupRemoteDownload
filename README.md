@@ -2,12 +2,12 @@
 See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading the GitHub repo instead of using ExternalProject
 
 ## Setup after cloning this repo: 
-1. Create build directory from the root of GTestSetup folder (eg: GTestSetup/build).
+1. Create build directory from the root of `GTestSetup` folder (eg: `GTestSetup/build`).
   - `mkdir build`
   - `cd build`
   
 2. Try to cmake and make to ensure your project is well setup
-  - In a terminal at the project build location, do the following commands:
+  - In a terminal at `GTestSetup/build` location, do the following commands:
     - `cmake ..`
     -  `make`  
   - If no error occured then everything should be setup correctly.
