@@ -1,0 +1,1 @@
+cmd='/home/brownthedev/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.6682.181/bin/cmake/linux/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/extern;-GCodeBlocks - Unix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

@@ -1,0 +1,13 @@
+# Target labels
+ gtest-target
+# Source files and their labels
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/gtest-target
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/gtest-target.rule
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/gtest-target-complete.rule
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-install.rule
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-mkdir.rule
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-download.rule
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-update.rule
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-patch.rule
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-configure.rule
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-build.rule

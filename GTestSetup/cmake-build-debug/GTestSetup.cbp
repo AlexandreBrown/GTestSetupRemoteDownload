@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GTestSetup"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\gtest-target-prefix\;CMake Files\cmake-build-debug\gtest-target-prefix\tmp\;CMake Files\src\;CMake Files\src\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest-target">
+				<Option working_dir="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest-target"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GTestSetup">
+				<Option output="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/GTestSetup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/extern/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 GTestSetup"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GTestSetup/fast">
+				<Option output="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/GTestSetup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/extern/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 GTestSetup/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GTestSetup_test">
+				<Option output="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/GTestSetup_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/extern/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 GTestSetup_test"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GTestSetup_test/fast">
+				<Option output="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/GTestSetup_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/extern/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 GTestSetup_test/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/main/MyClass.cpp">
+			<Option target="GTestSetup"/>
+			<Option target="GTestSetup_test"/>
+		</Unit>
+		<Unit filename="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/main/MyClass.h">
+			<Option target="GTestSetup"/>
+			<Option target="GTestSetup_test"/>
+		</Unit>
+		<Unit filename="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/main/main.cpp">
+			<Option target="GTestSetup"/>
+		</Unit>
+		<Unit filename="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/test/MyClassTest.cpp">
+			<Option target="GTestSetup_test"/>
+		</Unit>
+		<Unit filename="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/tmp/gtest-target-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\gtest-target-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

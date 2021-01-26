@@ -1,0 +1,9 @@
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/gtest-target.dir
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/GTestSetup.dir
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/test.dir
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/CMakeFiles/rebuild_cache.dir
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/CMakeFiles/edit_cache.dir
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/CMakeFiles/test.dir
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/src/test/CMakeFiles/GTestSetup_test.dir

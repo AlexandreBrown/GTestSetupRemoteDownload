@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/gtest-target"
+		},
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/gtest-target.rule"
+		},
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/CMakeFiles/gtest-target-complete.rule"
+		},
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-install.rule"
+		},
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-mkdir.rule"
+		},
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-download.rule"
+		},
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-update.rule"
+		},
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-patch.rule"
+		},
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-configure.rule"
+		},
+		{
+			"file" : "/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/cmake-build-debug/gtest-target-prefix/src/gtest-target-stamp/gtest-target-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest-target"
+		],
+		"name" : "gtest-target"
+	}
+}

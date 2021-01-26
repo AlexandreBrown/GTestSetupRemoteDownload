@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/main/MyClass.cpp
+MyClass.h
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/main/MyClass.h
+
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/main/MyClass.h
+string
+-
+
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/test/MyClassTest.cpp
+gtest/gtest.h
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/test/gtest/gtest.h
+../main/MyClass.h
+/home/brownthedev/Documents/GTestSetupUsingExternalProject/GTestSetup/src/main/MyClass.h
+
