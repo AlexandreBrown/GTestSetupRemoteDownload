@@ -7,7 +7,7 @@ namespace {
     public:
         MyClass myClass;
 
-        MyClassTest() {
+        void SetUp() override {
             myClass = MyClass();
         }
     };
