@@ -31,6 +31,7 @@ See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading t
 - CLion : File->Invalidate cache & restart
 #### Cannot run tests using play button :
 - Try to right click your test class from the file explorer (inside CLion) and click "Run all in YourClassTest.cpp"  
+- If it doesn't work try deleting the `/build` folder and recreating it and repopulating it using steps describe in _Global fixes to try_  
 - If it doesn't work try running your tests using `make test` from `/build` folder
 #### Cannot find "gtest/gtest.h" / Don't have play button to run test inside my test class  :
 - Try deleting `/build` and recreating/populating it using steps describe in _Global fixes to try_  
