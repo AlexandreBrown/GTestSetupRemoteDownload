@@ -1,4 +1,5 @@
 # GTestSetupUsingExternalProject  
+See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading the GitHub repo instead of using ExternalProject
 
 ## Running the tests  
 ### Using CLion IDE
