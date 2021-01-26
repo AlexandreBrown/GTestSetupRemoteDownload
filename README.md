@@ -1,7 +1,7 @@
 # GTestSetupUsingExternalProject  
 See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading the GitHub repo instead of using ExternalProject
 
-## Setup after cloning this repo: 
+## Setup after cloning : 
 1. Create build directory from the root of `GTestSetup` folder (eg: `GTestSetup/build`).
   - `mkdir build`
   - `cd build`
