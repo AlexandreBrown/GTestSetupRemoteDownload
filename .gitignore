@@ -32,5 +32,5 @@ GTestSetup/*.out
 GTestSetup/*.app
 
 # Build
-GTestSetup/build/*.*
-GTestSetup/cmake-build-debug
+**/build/
+**/cmake-build-debug/
