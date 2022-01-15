@@ -42,3 +42,5 @@ See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading t
 - Try re-running the test, maybe it was ran with outdated code or try `make && make test` from `/build`  
 #### Could not build /cmake-build-debug does not exist :  
 - Try File->Invalidate cache & restart
+#### fatal: invalid reference: master
+- Try replacing branch name `master` to `main` in file `/build/gtest-target-prefix/tmp/gtest-target-gitclone.cmake`
