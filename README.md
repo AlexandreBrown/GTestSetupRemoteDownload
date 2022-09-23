@@ -1,4 +1,4 @@
-# GTestSetupUsingExternalProject  
+# GTestSetupRemoteDownload  
 See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading the GitHub repo instead of downloading it via CMake.
 
 ## Setup after cloning : 
