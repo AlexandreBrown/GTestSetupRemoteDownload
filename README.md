@@ -1,7 +1,18 @@
 # GTestSetupUsingExternalProject  
-See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading the GitHub repo instead of using ExternalProject
+See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading the GitHub repo instead of downloading it via CMake.
 
 ## Setup after cloning : 
+Depending on how you want to run your tests there might be some setup required.  
+### Running Tests Using CLion/An IDE (Recommended):
+1. No additional setup required.
+- To run the all the tests inside `MyClassTest` you can use the run button at the test fixture or test name  
+  - You can also right click a folder with tests and run all the tests or you can run individual tests using the green run button  
+  - You can also run tests from the bottom pane that opens up after runnign tests initially  
+   -  ![Run Tests using IDE](https://camo.githubusercontent.com/f909220c3da451214c25555afed0b12dcf538f667ec6aba16661e0164ffe6046/68747470733a2f2f692e6962622e636f2f384d386d46434e2f53637265656e73686f742d66726f6d2d323032312d30312d32352d32332d33342d30362e706e67)
+   -  ![Run Tests using IDE](https://i.ibb.co/X2TLqRw/Screenshot-from-2021-01-26-01-15-28.png)
+  - Using the IDE to run tests might provide better feedback than other alternatives (subjective)  
+
+### Running Tests Using CTest:
 1. Create build directory from the root of `GTestSetup` folder (eg: `GTestSetup/build`).
   - `mkdir build`
   - `cd build`
@@ -11,20 +22,11 @@ See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading t
     - `cmake ..`
     -  `make`  
   - If no error occured then everything should be setup correctly.
-  
-## Running the tests  
-### Using CLion IDE
-- To run the all the tests inside `MyClassTest` you can use the run button at the test fixture or test name  
-  - You can also right click a folder with tests and run all the tests or you can run individual tests using the green run button  
-  - You can also run tests from the bottom pane that opens up after runnign tests initially  
-   -  ![Run Tests using IDE](https://camo.githubusercontent.com/f909220c3da451214c25555afed0b12dcf538f667ec6aba16661e0164ffe6046/68747470733a2f2f692e6962622e636f2f384d386d46434e2f53637265656e73686f742d66726f6d2d323032312d30312d32352d32332d33342d30362e706e67)
-   -  ![Run Tests using IDE](https://i.ibb.co/X2TLqRw/Screenshot-from-2021-01-26-01-15-28.png)
-  - Using the IDE to run tests might provide better feedback than other alternatives (subjective)  
-      
-### Using CTest  
-- go into `/build` and run `make && make test`, this will recompile your poject and run all the tests using CTest and give you a command-line print of the result.
+
+3. Run unit tests
+  - Run the following inside of the `GTestSetup/build` folder : `make && make test` or simply `make test` if you already did `make` and no files changed since.  
   -  ![Run Tests using IDE](https://i.ibb.co/XjWWgxY/Screenshot-from-2021-01-26-01-17-25.png)
-  
+
 ## Known issues and workaround  
 ### Global fixes to try :
 - Delete `/build` folder and recreate/populate it using `mkdir build` + `cmake ..` + `make`  
@@ -42,5 +44,3 @@ See https://github.com/AlexandreBrown/GTestSetup to setup GTest by downloading t
 - Try re-running the test, maybe it was ran with outdated code or try `make && make test` from `/build`  
 #### Could not build /cmake-build-debug does not exist :  
 - Try File->Invalidate cache & restart
-#### fatal: invalid reference: master
-- Try replacing branch name `master` to `main` in file `/build/gtest-target-prefix/tmp/gtest-target-gitclone.cmake`
