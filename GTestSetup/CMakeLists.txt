@@ -15,19 +15,19 @@ option(BUILD_TESTING "build unit tests" ON)
 
 if(BUILD_TESTING)
 
-    include(ExternalProject) # Allows us to include external projects via github URL instead of downloading the repo manually
+    enable_testing() #Enables testing via command : make test
 
-    #GTest
-    ExternalProject_add(gtest-target
-            GIT_REPOSITORY "https://github.com/google/googletest"
-            CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/extern"
-            UPDATE_COMMAND ""
-            )
-    include_directories(${CMAKE_CURRENT_BINARY_DIR}/extern/include)
-    link_directories(${CMAKE_CURRENT_BINARY_DIR}/extern/lib)
+    include(FetchContent)
 
-    # Not mandatory but nice tool
-    enable_testing() #Enables CTest which can run all our tests via command-line (use command : "make" in /build to apply changes made to code then run "make test")
+    FetchContent_Declare(
+            googletest
+            GIT_REPOSITORY https://github.com/google/googletest.git
+            GIT_TAG release-1.12.1
+    )
+
+    # For Windows: Prevent overriding the parent project's compiler/linker settings
+    set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+    FetchContent_MakeAvailable(googletest)
 
     add_subdirectory(src/test)
 endif()
